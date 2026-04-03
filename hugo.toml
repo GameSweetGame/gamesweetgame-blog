@@ -1,0 +1,26 @@
+baseURL = 'https://gamesweetgame.com/'
+languageCode = 'ko'
+title = 'GameSweetGame'
+theme = 'PaperMod'
+
+[params]
+  author = 'GameSweetGame'
+  description = '게임 개발 블로그'
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+  Title = 'GameSweetGame'
+  Content = '게임 & 앱 개발 블로그'
+
+[menu]
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 1
+[[menu.main]]
+  name = 'Tags'
+  url = '/tags/'
+  weight = 2
