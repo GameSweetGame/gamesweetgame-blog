@@ -1,4 +1,4 @@
-baseURL = 'https://gamesweetgame.github.io/gamesweetgame-blog/'
+baseURL = 'https://gamesweetgame.com/'
 languageCode = 'ko'
 title = 'GameSweetGame'
 theme = 'PaperMod'
