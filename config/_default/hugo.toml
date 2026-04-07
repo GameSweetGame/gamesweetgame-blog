@@ -1,0 +1,13 @@
+baseURL = 'https://gamesweetgame.com/'
+defaultContentLanguage = 'ko'
+title = 'GameSweetGame'
+theme = 'Stack'
+hasCJKLanguage = true
+paginate = 10
+
+[permalinks]
+  post = '/p/:slug/'
+  page = '/:slug/'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']

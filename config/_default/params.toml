@@ -1,0 +1,47 @@
+# 사이드바
+[sidebar]
+  subtitle = '게임 & 앱 개발'
+  avatar = 'img/avatar.png'
+
+# 파비콘
+favicon = '/favicon.ico'
+
+# 메인 섹션
+mainSections = ['posts']
+
+# 다크 모드
+[colorScheme]
+  toggle = true
+  default = 'dark'
+
+# 위젯 - 홈
+[[widgets.homepage]]
+  type = 'search'
+[[widgets.homepage]]
+  type = 'categories'
+  [widgets.homepage.params]
+    limit = 10
+[[widgets.homepage]]
+  type = 'tag-cloud'
+  [widgets.homepage.params]
+    limit = 20
+
+# 위젯 - 글 페이지
+[[widgets.page]]
+  type = 'toc'
+
+# 기타
+[article]
+  readingTime = true
+  toc = true
+
+[footer]
+  since = 2025
+
+# SEO
+[opengraph]
+  [opengraph.twitter]
+    card = 'summary_large_image'
+
+# RSS
+rssFullContent = true

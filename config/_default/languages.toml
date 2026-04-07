@@ -1,0 +1,13 @@
+[ko]
+  languageName = '한국어'
+  weight = 1
+  title = 'GameSweetGame'
+  [ko.params]
+    subtitle = '게임 & 앱 개발 블로그'
+
+[en]
+  languageName = 'English'
+  weight = 2
+  title = 'GameSweetGame'
+  [en.params]
+    subtitle = 'Game & App Development Blog'
