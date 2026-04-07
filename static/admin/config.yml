@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: GameSweetGame/gamesweetgame-blog
+  branch: main
+
+media_folder: "static/images/posts"
+public_folder: "/images/posts"
+
+collections:
+  - name: "posts-ko"
+    label: "글 (한국어)"
+    folder: "content/ko/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "날짜", name: "date", widget: "datetime" }
+      - { label: "설명", name: "description", widget: "string", required: false }
+      - { label: "카테고리", name: "categories", widget: "list", required: false }
+      - { label: "태그", name: "tags", widget: "list", required: false }
+      - { label: "본문", name: "body", widget: "markdown" }
+
+  - name: "posts-en"
+    label: "Posts (English)"
+    folder: "content/en/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

@@ -23,9 +23,13 @@ theme = 'PaperMod'
       url = '/tags/'
       weight = 2
     [[languages.ko.menu.main]]
+      name = '카테고리'
+      url = '/categories/'
+      weight = 3
+    [[languages.ko.menu.main]]
       name = '검색'
       url = '/search/'
-      weight = 3
+      weight = 4
 
   [languages.en]
     languageName = 'English'
@@ -46,9 +50,13 @@ theme = 'PaperMod'
       url = '/tags/'
       weight = 2
     [[languages.en.menu.main]]
+      name = 'Categories'
+      url = '/categories/'
+      weight = 3
+    [[languages.en.menu.main]]
       name = 'Search'
       url = '/search/'
-      weight = 3
+      weight = 4
 
 [params]
   # 로고 & 파비콘
