@@ -52,6 +52,8 @@ Think of it as finding the slope at any arbitrary point on a function.
 
 Finding the signed area under a curve.
 
+![Integration - signed area](/images/posts/2d-physics-math-basics/integral.png)
+
 ## Torque
 
 Calculated using the cross product of vectors.

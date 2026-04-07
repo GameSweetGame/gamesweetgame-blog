@@ -52,6 +52,8 @@ D2D로 그림을 그린다.
 
 부호있는 면적을 구하는 것.
 
+![적분 - 부호있는 면적](/images/posts/2d-physics-math-basics/integral.png)
+
 ## 토크 (Torque)
 
 벡터의 크로스 프로덕트 연산을 이용해서 구한다.
