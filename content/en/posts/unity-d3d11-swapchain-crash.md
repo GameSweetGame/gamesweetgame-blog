@@ -10,7 +10,7 @@ I was working in Unity when suddenly the editor crashed with a D3D11 swapchain e
 
 After reopening, it would crash within 3 seconds every time.
 
-![Error screenshot](https://blog.kakaocdn.net/dna/bLpuCk/dJMcajgH2Ai/AAAAAAAAAAAAAAAAAAAAAC1odZ9AlPMP1_JCB2vG9EEh90FKTGvyw4wmk0mrSAQF/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=4I9F%2FfATeEd%2Bzo%2FI%2BYckEB3AIf4%3D)
+![Error screenshot](/images/posts/unity-d3d11-swapchain-crash/1.png)
 
 I tried everything — reinstalling Unity, changing versions — nothing worked.
 
@@ -20,10 +20,10 @@ The key symptom was that the editor was sluggish and unresponsive, but the scene
 
 Then I noticed **Windows Defender**.
 
-![Defender](https://blog.kakaocdn.net/dna/BWcNY/dJMcaiPDXME/AAAAAAAAAAAAAAAAAAAAAB1sByDYHHLTZu3k04A0UgqoWBur_P4fDCfyBkdDtx7C/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=Xt2f%2Fc6R5IvekBK4IlLrrW6Yccw%3D)
+![Defender](/images/posts/unity-d3d11-swapchain-crash/2.png)
 
 **The fix: Allow the Unity Editor and Unity Package Manager through Windows Defender Firewall.**
 
-![Firewall settings](https://blog.kakaocdn.net/dna/dakfJU/dJMcahXzaSY/AAAAAAAAAAAAAAAAAAAAACK5r00g_D-90mlI8Bl49RMGswnwBly-wt2NfEacRh7V/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=X9RCOsdylYaERpKcbMhlBrhl5r8%3D)
+![Firewall settings](/images/posts/unity-d3d11-swapchain-crash/3.png)
 
 My theory: Unity tries to communicate with Package Manager and other services on startup. The firewall blocks these requests, stalling the main thread, causing GPU timing to slip, and eventually triggering the D3D11 device reset.

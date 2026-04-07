@@ -16,4 +16,4 @@ Only visible when the object is **selected** in the Scene view.
 
 Great for visualizing field of view, attack range, and other debug shapes.
 
-![Blue lines drawn in scene](https://blog.kakaocdn.net/dna/WVjQt/btsMHQ5di0H/AAAAAAAAAAAAAAAAAAAAAGOO4AHZua5x2W9vFEblBuu52EklmZlrjNu3qGg018mN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=ssBGS2QiWraSNjSejjuVLNbZvyM%3D)
+![Blue lines drawn in scene](/images/posts/unity-gizmo-fov-visualization/1.png)

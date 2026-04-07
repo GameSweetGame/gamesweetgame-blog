@@ -8,6 +8,6 @@ description = 'Unity에서 FBX 파일의 애니메이션 클립을 Ctrl+D로 간
 
 FBX파일을 선택하고 **Ctrl+D**하면 애니메이션 파일만 복사가 된다.
 
-![FBX 애니메이션 추출](https://blog.kakaocdn.net/dna/bgtRDV/dJMcaajUvue/AAAAAAAAAAAAAAAAAAAAAF2iy8OyXy39mc8sc4a4L5iKRz9l37z6GHGJiT0-TZAp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=AQDTkXZAHegfH%2BKVzI4INOKGjJs%3D)
+![FBX 애니메이션 추출](/images/posts/unity-fbx-extract-animation/1.png)
 
 설정을 다 마친 후에 추출하자.

@@ -51,6 +51,6 @@ The core concept: **which direction was this bone originally facing?**
 
 UpperArm → LowerArm direction = **bone's reference forward vector**
 
-![Motion capture result](https://blog.kakaocdn.net/dna/r5Ipj/dJMcafejncp/AAAAAAAAAAAAAAAAAAAAAI4h9Lsaov86gsi_snD2bdruWq35a5pYQqaIPwR5WBD_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=x0wWvUl2pIgwvNBPSmXc0c4nJAE%3D)
+![Motion capture result](/images/posts/motion-capture-to-game/1.png)
 
 A bit rough, but the motion came through. Now it's time to refine it in Blender.

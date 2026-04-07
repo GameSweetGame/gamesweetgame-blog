@@ -52,6 +52,6 @@ lUpperBindDir = (lLowerArm.position - lUpperArm.position).normalized;
 
 UpperArm → LowerArm 방향 = **본의 기준 forward 벡터**
 
-![모션캡쳐 결과](https://blog.kakaocdn.net/dna/r5Ipj/dJMcafejncp/AAAAAAAAAAAAAAAAAAAAAI4h9Lsaov86gsi_snD2bdruWq35a5pYQqaIPwR5WBD_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=x0wWvUl2pIgwvNBPSmXc0c4nJAE%3D)
+![모션캡쳐 결과](/images/posts/motion-capture-to-game/1.png)
 
 어색하지만 대충 모션이 나왔다. 이제 블렌더에서 모션을 다듬으면 되겠다.

@@ -16,6 +16,6 @@ description = '모션캡쳐 데이터를 블렌더에서 믹사모 리그로 수
 
 [믹사모 리그 애드온](https://extensions.blender.org/add-ons/mixamo-rig/)을 사용하면 될 것 같다.
 
-![컨트롤 리그가 생겼다](https://blog.kakaocdn.net/dna/HCmLz/dJMcafk4qVL/AAAAAAAAAAAAAAAAAAAAAO3BBtBHOVjHT5n_GBUMJ7rLIvD2_FLbXnlK6EDP2SEf/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=EdiYMHVADUY4gK4NSgzIL8z0sH4%3D)
+![컨트롤 리그가 생겼다](/images/posts/game-animation-custom-edit/1.png)
 
 간편하게 버튼 한 번으로 컨트롤 리그가 생겼다.

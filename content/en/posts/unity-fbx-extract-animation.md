@@ -8,6 +8,6 @@ description = 'How to extract animation clips from FBX files in Unity using Ctrl
 
 Select the FBX file and press **Ctrl+D** to duplicate just the animation clip.
 
-![FBX animation extraction](https://blog.kakaocdn.net/dna/bgtRDV/dJMcaajUvue/AAAAAAAAAAAAAAAAAAAAAF2iy8OyXy39mc8sc4a4L5iKRz9l37z6GHGJiT0-TZAp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=AQDTkXZAHegfH%2BKVzI4INOKGjJs%3D)
+![FBX animation extraction](/images/posts/unity-fbx-extract-animation/1.png)
 
 Make sure to finalize all settings before extracting.

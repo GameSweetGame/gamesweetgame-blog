@@ -14,6 +14,6 @@ Let's edit the animation in Blender.
 
 After struggling with building bone controllers from scratch, I found something great — the [Mixamo Rig addon](https://extensions.blender.org/add-ons/mixamo-rig/).
 
-![Control rig created](https://blog.kakaocdn.net/dna/HCmLz/dJMcafk4qVL/AAAAAAAAAAAAAAAAAAAAAO3BBtBHOVjHT5n_GBUMJ7rLIvD2_FLbXnlK6EDP2SEf/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=EdiYMHVADUY4gK4NSgzIL8z0sH4%3D)
+![Control rig created](/images/posts/game-animation-custom-edit/1.png)
 
 With just one click, a control rig was generated. Easy.

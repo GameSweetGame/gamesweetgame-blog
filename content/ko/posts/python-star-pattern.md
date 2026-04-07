@@ -30,6 +30,6 @@ while True:
 - `while True`로 무한반복을 만들어준다.
 - 한 번씩 돌 때마다 별을 1씩 증가시키면서 찍는데, 별과 입력한 숫자가 같으면 `break`로 중단한다.
 
-![실행 결과](https://blog.kakaocdn.net/dna/vC5KM/btrmhY8U3X2/AAAAAAAAAAAAAAAAAAAAAHK7pWNtXdPHsXSNLKDXjIKAdSEFQdSiGIOM2yyRBTT7/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=xIFFzThB5lZ9Cc%2BTbBTqlOEdZCk%3D)
+![실행 결과](/images/posts/python-star-pattern/1.png)
 
 7을 입력해보니 별이 1개부터 7개까지 찍히고 실행이 끝났다.

@@ -30,6 +30,6 @@ while True:
 - `while True` creates an infinite loop.
 - Each iteration prints stars and increments by 1. When it matches the input, `break` stops the loop.
 
-![Result](https://blog.kakaocdn.net/dna/vC5KM/btrmhY8U3X2/AAAAAAAAAAAAAAAAAAAAAHK7pWNtXdPHsXSNLKDXjIKAdSEFQdSiGIOM2yyRBTT7/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=xIFFzThB5lZ9Cc%2BTbBTqlOEdZCk%3D)
+![Result](/images/posts/python-star-pattern/1.png)
 
 Entering 7 prints stars from 1 to 7 rows.

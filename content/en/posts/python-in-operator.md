@@ -26,7 +26,7 @@ print(result6)  # True
 print(result7)  # False
 ```
 
-![Output](https://blog.kakaocdn.net/dna/LZmFB/btrl6LtKb64/AAAAAAAAAAAAAAAAAAAAAGw_W1Wp2lmJ4gEE-thh3HmS38BQCNZuNOVBBfNOiE03/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=PxaXzN0CwWrkntsx7JHMIWRPnDk%3D)
+![Output](/images/posts/python-in-operator/1.png)
 
 - `result1`: Is 1 in `[1, 2, 3]`? → Yes → `True`
 - `result2`: Is 5 in `[1, 2, 3]`? → No → `False`

@@ -12,7 +12,7 @@ description = 'Unity 에디터 D3D11 swapchain 크래시 원인: Windows Defende
 
 다시 켜보니 실행 후 3초 정도 있으면 바로 터졌다.
 
-![에러 스크린샷](https://blog.kakaocdn.net/dna/bLpuCk/dJMcajgH2Ai/AAAAAAAAAAAAAAAAAAAAAC1odZ9AlPMP1_JCB2vG9EEh90FKTGvyw4wmk0mrSAQF/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=4I9F%2FfATeEd%2Bzo%2FI%2BYckEB3AIf4%3D)
+![에러 스크린샷](/images/posts/unity-d3d11-swapchain-crash/1.png)
 
 유니티 에디터가 그래픽드라이버 리셋에 걸려서 강제종료 한다는 것 같은데, 바로 구글링 들어가서 이것저것 시도해 봤는데 해결이 안됐다.
 
@@ -32,10 +32,10 @@ description = 'Unity 에디터 D3D11 swapchain 크래시 원인: Windows Defende
 
 그러다가 우연히 윈도우에 작동하고 있는 Defender가 눈에 들어왔다.
 
-![Defender](https://blog.kakaocdn.net/dna/BWcNY/dJMcaiPDXME/AAAAAAAAAAAAAAAAAAAAAB1sByDYHHLTZu3k04A0UgqoWBur_P4fDCfyBkdDtx7C/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=Xt2f%2Fc6R5IvekBK4IlLrrW6Yccw%3D)
+![Defender](/images/posts/unity-d3d11-swapchain-crash/2.png)
 
 **방화벽에서 앱 허용에 에디터랑 유니티패키지 매니저를 허용했더니 해결 되었다.**
 
-![방화벽 설정](https://blog.kakaocdn.net/dna/dakfJU/dJMcahXzaSY/AAAAAAAAAAAAAAAAAAAAACK5r00g_D-90mlI8Bl49RMGswnwBly-wt2NfEacRh7V/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=X9RCOsdylYaERpKcbMhlBrhl5r8%3D)
+![방화벽 설정](/images/posts/unity-d3d11-swapchain-crash/3.png)
 
 유니티를 실행하면 에디터에서 패키지 매니저 등 네트워크 통신을 하다가 방화벽에 막혀서 메인 스레드가 지연되고, GPU 타이밍이 밀리면서 D3D가 터진 게 아닌가라는 추측.

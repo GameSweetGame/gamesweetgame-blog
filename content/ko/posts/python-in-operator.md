@@ -26,7 +26,7 @@ print(result6)  # True
 print(result7)  # False
 ```
 
-![출력 결과](https://blog.kakaocdn.net/dna/LZmFB/btrl6LtKb64/AAAAAAAAAAAAAAAAAAAAAGw_W1Wp2lmJ4gEE-thh3HmS38BQCNZuNOVBBfNOiE03/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=PxaXzN0CwWrkntsx7JHMIWRPnDk%3D)
+![출력 결과](/images/posts/python-in-operator/1.png)
 
 - `result1`: 리스트 `[1, 2, 3]` 안에 1이 있니? → 있음 → `True`
 - `result2`: 리스트 `[1, 2, 3]` 안에 5가 있니? → 없음 → `False`
