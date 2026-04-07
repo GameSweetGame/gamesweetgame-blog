@@ -1,6 +1,6 @@
 ---
 date: "2021-11-24T00:00:00+09:00"
-title: "Python: Search Lists and Strings with the "in" Operator"
+title: 'Python: Search Lists and Strings with the "in" Operator'
 tags: ['Python', 'in', 'Beginner']
 categories: ['Python']
 description: "How to use Python in and not in operators to search lists and strings"
