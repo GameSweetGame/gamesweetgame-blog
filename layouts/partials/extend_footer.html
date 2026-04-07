@@ -1,0 +1,11 @@
+<script>
+(function() {
+  // 이미 언어 경로에 있으면 무시
+  if (window.location.pathname.startsWith('/en/')) return;
+  // 한국어가 아닌 브라우저면 /en/으로 리다이렉트
+  var lang = navigator.language || navigator.userLanguage || '';
+  if (!lang.startsWith('ko') && window.location.pathname === '/') {
+    window.location.replace('/en/');
+  }
+})();
+</script>
