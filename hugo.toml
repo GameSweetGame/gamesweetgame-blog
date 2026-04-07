@@ -1,26 +1,90 @@
 baseURL = 'https://gamesweetgame.com/'
-languageCode = 'ko'
+defaultContentLanguage = 'ko'
 title = 'GameSweetGame'
 theme = 'PaperMod'
 
+[languages]
+  [languages.ko]
+    languageName = '한국어'
+    weight = 1
+    contentDir = 'content/ko'
+    [languages.ko.params]
+      author = 'GameSweetGame'
+      description = '게임 & 앱 개발 블로그'
+    [languages.ko.params.homeInfoParams]
+      Title = 'GameSweetGame'
+      Content = '게임 & 앱 개발 블로그'
+    [[languages.ko.menu.main]]
+      name = '글'
+      url = '/posts/'
+      weight = 1
+    [[languages.ko.menu.main]]
+      name = '태그'
+      url = '/tags/'
+      weight = 2
+    [[languages.ko.menu.main]]
+      name = '검색'
+      url = '/search/'
+      weight = 3
+
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    contentDir = 'content/en'
+    [languages.en.params]
+      author = 'GameSweetGame'
+      description = 'Game & App Development Blog'
+    [languages.en.params.homeInfoParams]
+      Title = 'GameSweetGame'
+      Content = 'Game & App Development Blog'
+    [[languages.en.menu.main]]
+      name = 'Posts'
+      url = '/posts/'
+      weight = 1
+    [[languages.en.menu.main]]
+      name = 'Tags'
+      url = '/tags/'
+      weight = 2
+    [[languages.en.menu.main]]
+      name = 'Search'
+      url = '/search/'
+      weight = 3
+
 [params]
-  author = 'GameSweetGame'
-  description = '게임 개발 블로그'
+  # 로고 & 파비콘
+  favicon = '/favicon.ico'
+  [params.label]
+    text = 'GameSweetGame'
+    icon = '/logo400.png'
+    iconHeight = 35
+
+  # 프로필 이미지
+  [params.profileMode]
+    enabled = false
+  images = ['/logo.png']
+
+  # 다크 모드 기본
+  defaultTheme = 'dark'
+  disableThemeToggle = false
+
+  # 소셜 링크
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/GameSweetGame'
+
+  # UI
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
+  ShowShareButtons = true
+  ShowToc = true
 
-[params.homeInfoParams]
-  Title = 'GameSweetGame'
-  Content = '게임 & 앱 개발 블로그'
+  # SEO
+  [params.cover]
+    hiddenInList = false
+    hiddenInSingle = false
 
-[menu]
-[[menu.main]]
-  name = 'Posts'
-  url = '/posts/'
-  weight = 1
-[[menu.main]]
-  name = 'Tags'
-  url = '/tags/'
-  weight = 2
+# 검색 기능
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
